@@ -1,0 +1,97 @@
+                @font-face {
+        font-family: Pacifico;
+        src: url(./Pacifico.ttf)
+    }
+    body {
+        background-color: #F5E6E8;
+opacity: 0.8;
+background-image:  linear-gradient(30deg, #AAA1C8 12%, transparent 12.5%, transparent 87%, #AAA1C8 87.5%, #AAA1C8), linear-gradient(150deg, #AAA1C8 12%, transparent 12.5%, transparent 87%, #AAA1C8 87.5%, #AAA1C8), linear-gradient(30deg, #AAA1C8 12%, transparent 12.5%, transparent 87%, #AAA1C8 87.5%, #AAA1C8), linear-gradient(150deg, #AAA1C8 12%, transparent 12.5%, transparent 87%, #AAA1C8 87.5%, #AAA1C8), linear-gradient(60deg, #AAA1C877 25%, transparent 25.5%, transparent 75%, #AAA1C877 75%, #AAA1C877), linear-gradient(60deg, #AAA1C877 25%, transparent 25.5%, transparent 75%, #AAA1C877 75%, #AAA1C877);
+background-size: 20px 35px;
+background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+    }
+
+    .square {
+        background-color: #967AA1;
+        padding: 36px;
+        border: 2px solid black;
+        border-radius: 12px;
+        box-shadow: 10px 20px #192A51;
+    }
+    .square2 {
+        background-color: #967AA1;
+        padding: 12px;
+        border: 15px solid black;
+        width: 500px;
+        box-shadow: 10px 20px #192A51;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        .squareataglance {
+        background-color: #967AA1;
+        padding: 36px;
+        border: 2px solid black;
+        border-radius: 12px;
+        box-shadow: 10px 20px #192A51;
+        margin-left: 50px;
+        margin-right: auto;
+        width: 700px;
+    }
+
+        .cards div {
+        background-color: #967AA1;
+        padding: 36px;
+        border: 2px solid black;
+        border-radius: 2px;
+        box-shadow: 10px 20px #192A51;
+        margin-left: auto;
+        margin-right: 300px;
+        margin-bottom: 25px;
+        width: 500px;
+    }
+        .education {
+        background-color: #967AA1;
+        padding: 36px;
+        border: 2px solid black;
+        border-radius: 2px;
+        box-shadow: 10px 20px #192A51;
+        margin-left: auto;
+        margin-right: 300px;
+        margin-bottom: 25px;
+        width: 500px;
+    }
+            .squareeducation {
+        background-color: #967AA1;
+        padding: 2px;
+        border: 2px solid black;
+        border-radius: 12px;
+        box-shadow: 10px 20px #192A51;
+        margin-left: auto;
+        margin-right: 50px;
+        width: 1000px;
+    }
+
+    .maintext {
+        font-family: Pacifico;
+        color: #192A51;
+        font-size: 300%;
+        text-align: center;
+    }
+
+        .mainsubtext {
+        font-family: Pacifico;
+        color: #192A51;
+        font-size: 150%;
+        text-align: center;
+    }
+        .subtext {
+        font-family: Gill Sans;
+        color: #58445F;
+        font-size: 200%;
+        text-align: center;
+    }
+            .subtext2 {
+        font-family: Gill Sans;
+        color: #58445F;
+        font-size: 100%;
+        text-align: center;
+    }
