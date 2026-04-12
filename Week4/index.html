@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 Assignment</title>
+</head>
+<style>
+    .fixedpos {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 300px;
+        background-color: darkred;
+    }
+    .billyidol {
+        display: flex;
+        position:sticky;
+        top:0px;
+        left:0px;
+        background-color: red;
+        color:white;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+
+    .billyidol > button {
+        height: 50px;
+        align-items: center;
+
+    }
+
+    .backgrounddivide {
+        width:100vw;
+        height: 400px;
+        background-color: darkblue;
+        border-radius: 12px;
+    }
+    .cards {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards > div {
+        background-color: blue;
+        color:yellow;
+        border: 4px solid yellow;
+        border-radius: 15px;
+    }
+
+    #one {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: auto;
+    }
+
+    #two {
+        flex-grow: 5;
+        flex-shrink: 2;
+        flex-basis: auto;
+    }
+    
+    #three {
+        flex-grow: 10;
+        flex-shrink: 5;
+        flex-basis: 25%;
+    }
+
+    .cards2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width:100vw;
+        height:200px;
+    }
+    .cards2 > img {
+        height:100%;
+        border-radius: 12px;
+        width:30vw;
+    }
+
+</style>
+<body>
+    <div class="fixedpos">
+        <div class="billyidol">
+            <h1>Here are some Capcom games that I enjoy.</h1>
+            <button><a href="https://www.devilmaycry.com/en/">Devil May Cry</a></button><button><a href="https://www.streetfighter.com/en">Street Fighter</a></button><button><a href="https://www.ace-attorney.com">Ace Attorney</a></button><button><a href="https://megaman.capcom.com">Mega Man</a></button>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="backgrounddivide">
+        <div class="cards2">
+        <img src="DMC1.png">
+        <img src="SF6.png">
+        <img src="AA2.png">
+        </div>
+        
+
+    <div class="cards">
+        <div id="one">
+            <h2>DEVIL MAY CRY</h2>
+            <p>The story about a devil hunter who is also part devil himself, a lot of swords and guns involved.</p>
+        </div>
+
+        <div id="two">
+            <h2>STREET FIGHTER 6</h2>
+            <p>The most recent entry into the Street Fighter games, I main Ken and Terry, along with some others.</p>
+        </div>
+
+        <div id="three">
+            <h2>Phoenix Wright: Ace Attorney – Justice for All</h2>
+            <p>This is apart of the Ace Attorney Trilogy, released in 2019. It has one my favorite characters, Franziska Von Karma</p>
+        </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
